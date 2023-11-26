@@ -1,0 +1,10 @@
+name: test-wf
+on: workflow_dispatch
+jobs:
+  echoing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Hello"
+      - name: Print goodbye
+        run: echo "Good Bye"
